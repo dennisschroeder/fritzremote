@@ -21,14 +21,15 @@ Selenium comes in a local and a remote version.
 
 #### Remote Version
 If you want to run the browser on an other device than the one your
-python application that uses Fritzremote, you need to install a little java based server. 
+python application that uses Fritzremote, you need to install a little java based server. You will find
+what you need in the official selenium [documentation](https://selenium-python.readthedocs.io/getting-started.html#using-selenium-with-remote-webdriver).
 
 #### Local Version
 For the local version, Fritzremote needs a browser specific driver executable. You can can download them
 here: https://seleniumhq.github.io/selenium/docs/api/py/#drivers. Several browsers/drivers are supported 
 (Firefox, Chrome, Internet Explorer), as well as the Remote protocol.
 
-More on both in the official [Documentation](https://selenium-python.readthedocs.io/).
+More on that also in the official selenium [Documentation](https://selenium-python.readthedocs.io/installation.html#drivers).
 
 #### Example 1 (Remote Device)
     
